@@ -1,0 +1,555 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('Rubik-Bold.eot');
+    src: url('Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Rubik-Bold.woff2') format('woff2'),
+        url('Rubik-Bold.woff') format('woff'),
+        url('Rubik-Bold.ttf') format('truetype'),
+        url('Rubik-Bold.svg#Rubik-Bold') format('svg');
+}
+
+.full-width {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    width: 100%;
+}
+
+@media (max-width:1200px) {
+    header {
+        width: 85%
+    }
+}
+
+@media (max-width:1000px) {
+    header {
+        width: 65%
+    }
+}
+
+@media (max-width:800px) {
+    header {
+        width: 45%
+    }
+}
+
+@media (max-width:600px) {
+    header {
+        width: 35%
+    }
+}
+
+@media (max-width:400px) {
+    header {
+        width: 25%
+    }
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Rubik';
+    font-weight: 200;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+li a:hover{
+    background-color: #3779db;
+    color: white;
+    border-radius: 10px;
+}
+
+ul {
+    text-align: center;
+    padding-top: 2px;
+}
+
+a:hover {
+    color: #5e98f0;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+#one {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+
+#one h2 {
+    font-size: 50px;
+    font-family: 'Rubik';
+    font-weight: 700;
+}
+
+#one p {
+    font-size: 30px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#one a {
+    text-decoration: none;
+    color: #6d9add;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Rubik';
+}
+
+#one a:hover {
+    background-color: #61a0ff;
+    color: white;
+}
+
+.easy {
+    width: 50%;
+    padding: 100px;
+}
+
+@media (max-width:1000px) {
+    .easy {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.vaccine {
+    width: 50%;
+}
+
+@media (max-width:1000px) {
+    .vaccine {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+#two {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#two h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Rubik';
+}
+
+.vector {
+    height: 2px;
+    width: 100px;
+    position: relative;
+    left: 47%;
+}
+
+span {
+    color: #61a0ff
+}
+
+.steps {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#two h6 {
+    font-family: 'Rubik';
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#two p {
+    font-family: 'Rubik';
+    font-size: 20px;
+}
+
+.getvax {
+    width: 20%;
+    text-align: center;
+    font-family: 'Rubik';
+    border: solid 1px rgb(194, 192, 192);
+    border-radius: 5%;
+    box-shadow: 5px 5px 2px 1px rgba(133, 127, 127, 0.815);
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+@media (max-width:1200px) {
+    .getvax {
+        width: 40%;
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width:1000px) {
+    .getvax {
+        width: 60%;
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+#three {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#three h2 {
+    font-size: 50px;
+    font-family: 'Rubik';
+}
+
+#three p {
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    font-family: 'Rubik';
+}
+
+.leading {
+    width: 50%;
+    padding: 100px;
+}
+
+.illustrate {
+    width: 50%;
+}
+
+@media (max-width:1000px) {
+    #three div {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+
+#three a {
+    text-decoration: none;
+    color: #6d9add;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Rubik';
+}
+
+#three a:hover {
+    background-color: #61a0ff;
+    color: white;
+}
+
+#four {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.amico {
+    width: 50%;
+}
+
+.learnmore {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 160px;
+    text-align: right;
+}
+
+#four h2 {
+    font-size: 50px;
+    font-family: 'Rubik';
+}
+
+#four p {
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    font-family: 'Rubik';
+}
+
+@media (max-width:1200px) {
+    #four div {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media (max-width:1200px) {
+    #four div a {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+#four a {
+    text-decoration: none;
+    color: #61a0ff;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Rubik';
+}
+
+#four a:hover {
+    background-color: #3779db;
+    color: white;
+}
+
+#five {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+    padding: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+
+.download {
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 90px;
+}
+
+#five h2 {
+    font-size: 50px;
+    font-family: 'Rubik';
+}
+
+#five p {
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    font-family: 'Rubik';
+}
+
+.illustration {
+    width: 50%;
+}
+
+@media (max-width:1200px) {
+    #five div {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+#six {
+    margin-top: 100px;
+    margin: 0 auto;
+}
+
+#six h2 {
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 40px;
+}
+
+.vector {
+    height: 2px;
+    width: 100px;
+    position: relative;
+    left: 47%;
+}
+
+.articles {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.article {
+    width: 30%;
+    text-align: center;
+    font-family: 'Rubik';
+    border: solid 1px rgb(194, 192, 192);
+    border-radius: 5%;
+    box-shadow: 5px 5px 2px 1px rgba(133, 127, 127, 0.815);
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.article img {
+    border-radius: 20px;
+}
+
+.article h6 {
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.article p {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.article a {
+    text-decoration: none;
+    color: #6d9add;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Rubik';
+}
+
+.article a:hover {
+    background-color: #61a0ff;
+    color: white;
+}
+
+@media (max-width:1200px) {
+    .article {
+        width: 40%;
+    }
+}
+
+@media (max-width:1000px) {
+    .article {
+        width: 70%;
+    }
+}
+
+#seven {
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#seven h2 {
+    font-size: 50px;
+    font-family: 'Rubik';
+}
+
+#seven p {
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    font-family: 'Rubik';
+}
+
+#seven a {
+    text-decoration: none;
+    color: #6d9add;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Rubik';
+}
+
+#seven a:hover {
+    background-color: #61a0ff;
+    color: white;
+}
+
+@media (max-width:1200px) {
+    .vaccinate-yourself {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media (max-width:1000px) {
+    .vaccinate-yourself {
+        width: 60%;
+        text-align: center;
+    }
+}
+
+footer {
+    height: 400px;
+    background-color: #61a0ff;
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+    width: 95%;
+    padding-top: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 50px;
+    width: 90%;
+}
+
+.footer div {
+    width: 50%;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.logo {
+    padding-left: 50px;
+}
+
+.footer p {
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.ul li {
+    font-size: 18px;
+    text-align: left;
+    padding: 4px 0px;
+}
